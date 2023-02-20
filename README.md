@@ -51,7 +51,7 @@ create_cursor.execute("CREATE DATABASE IF NOT EXISTS final_project")
 run and terminate the program
 
 ```bash
-python CMSC127_FinalProject.py
+python main.py
 ```
 
 comment out the 1st time connection
@@ -73,5 +73,5 @@ create_cursor.execute("CREATE TABLE IF NOT EXISTS task(taskid INT PRIMARY KEY AU
 run the program
 
 ```bash
-python CMSC127_FinalProject.py
+python main.py
 ```
